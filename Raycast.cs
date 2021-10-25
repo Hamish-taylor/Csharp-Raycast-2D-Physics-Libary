@@ -5,8 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LightWayHM
-{
     class Raycast
     {
         public static bool RayVsRect(Vector2 origin, Vector2 direction, Rectangle target, ref Vector2 contact_point, ref Vector2 contact_normal, ref float t_hit_near)
@@ -83,4 +81,4 @@ namespace LightWayHM
             rhs = temp;
         }
     }
-}
+
