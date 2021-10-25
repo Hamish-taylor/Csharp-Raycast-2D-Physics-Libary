@@ -4,9 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//A helper custom rectangle class
 
-namespace LightWayHM
-{
     struct Rectangle
     {
         public float X { get; set; }
@@ -49,4 +48,3 @@ namespace LightWayHM
 
 
     }
-}
